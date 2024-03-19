@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.recommendation_area {
+    padding: 120px 0;
+}
+
+.recommendation_area h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.recommendation_area p {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.recommendation_title .title {
+    text-shadow: 0px 4px 4px #00000080;
+    color: #d7328b;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.filter-container {
+    display: inline-block;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.filter-container label {
+    margin-right: 15px;
+    font-size: 18px;
+    color: #f4f4f4;
+}
+
+.recommendation_search_form {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.recommendation_search_form select {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.hidden {
+    display: none;
+}
+
+.recommendation-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.recommendation-image img {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.pagination a {
+    color: #6c757d;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #6c757d;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #6c757d;
+    color: white;
+    border: 1px solid #6c757d;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
