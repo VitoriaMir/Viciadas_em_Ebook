@@ -1,7 +1,7 @@
 $(function () {
 
     $(window).on("scroll", function (event) {
-        var scroll = $(window).scrollTop();
+        var scroll = $(window).scrollTop(); // Retorna a posição do scroll
         if (scroll < 20) {
             $(".header_navbar").removeClass("sticky");
             $(".header_navbar img").attr("src", "/assets/images/logo.svg");
@@ -11,15 +11,15 @@ $(function () {
         }
     });
 
-    $(".navbar-nav a").on("click", function () {
+    $(".navbar-nav a").on("click", function () { // Fecha o menu ao clicar em um link
         $(".navbar-collapse").removeClass("show");
     });
 
-    $(".navbar-toggler").on("click", function () {
+    $(".navbar-toggler").on("click", function () { // Adiciona a classe active ao botão do menu
         $(this).toggleClass("active");
     });
 
-    $(".navbar-nav a").on("click", function () {
+    $(".navbar-nav a").on("click", function () { // Remove a classe active do botão do menu
         $(".navbar-toggler").removeClass("active");
     });
 

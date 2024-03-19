@@ -1,4 +1,3 @@
-console.log("oi");
 // ==== Recomendação de livros
 var books = [
     { author: "Ali Hazelwood", image: "/assets/images/books/Ali-Hazelwood/a-hipótese-do-amor.jpg" },
@@ -111,22 +110,22 @@ var books = [
 ];
 
 function filterBooks(event) {
-    if (!event) {
+    if (!event) { // Se não houver evento, exibe todos os livros
         paginateBooks(books);
         return;
     }
-    var selectedAuthor = event.target.value;
-    var filteredBooks = books.filter(function (book) {
+    var selectedAuthor = event.target.value; // Obtém o autor selecionado
+    var filteredBooks = books.filter(function (book) { // Filtra os livros pelo autor selecionado
         return selectedAuthor === "" || book.author === selectedAuthor;
     });
     paginateBooks(filteredBooks);
 }
 
-const select = document.getElementById("filter-select");
-select.addEventListener("change", filterBooks);
+const select = document.getElementById("filter-select"); 
+select.addEventListener("change", filterBooks); 
 
 
-function paginateBooks(books) {
+function paginateBooks(books) { // Função para exibir os livros paginados
     var itemsPerPage = 12;
     var limit = Math.ceil(books.length / itemsPerPage);
     totalPages = limit; // Atualiza o total de páginas
