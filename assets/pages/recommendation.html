@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Viciadas em Ebooks</title>
+
+    <meta name="description" content="Viciadas em Ebooks">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/assets/css/bootstrap.4.5.2.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body
+    style="background-image: url('/assets/images/biblioteca.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+    <section class="header_area">
+        <div class="header_navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="/index.html">
+                                <img src="/assets/images/logo.svg" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="/assets/pages/recommendation.html">Recomendação</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="/index.html#about">Sobre</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommendation" class="recommendation_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="recommendation_title text-center">
+                        <h2 class="title">Recomendação literária</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Livros recomendados -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="recommendation_search">
+                        <div class="recommendation_search_form">
+                            <form action="#">
+                                <select id="filter-select" name="filter">
+                                    <option value="">Filtrar por Autor</option>
+                                    <option value="Ali Hazelwood">Ali Hazelwood</option>
+                                    <option value="Alicia Bianchi">Alicia Bianchi</option>
+                                    <option value="Bárbara Lorrany">Bárbara Lorrany</option>
+                                    <option value="Brittainy Cherry">Brittainy Cherry</option>
+                                    <option value="Colleen Hoover">Colleen Hoover</option>
+                                    <option value="Elle Kennedy">Elle Kennedy</option>
+                                    <option value="Evilane Oliveira">Evilane Oliveira</option>
+                                    <option value="Fernanda Santana">Fernanda Santana</option>
+                                    <option value="Julia Quinn">Julia Quinn</option>
+                                    <option value="Laura Amorim">Laura Amorim</option>
+                                    <option value="Mellisa Christine">Mellisa Christine</option>
+                                    <option value="Tatiane Biasi">Tatiane Biasi</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="row" id="book-list"></div>
+
+                    <div id="pagination-container">
+                        <ul class="pagination justify-content-center">
+                            <button class="page-item" id="previous-page">Anterior</button>
+                            <div class="number-page" id="page-numbers"></div>
+                            <button class="page-item" id="next-page">Próximo</button>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="/assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/recomendation.js"></script>
+
+</body>
+
+</html>
