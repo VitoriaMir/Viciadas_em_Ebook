@@ -43,7 +43,6 @@ var books = [
     { author: "Ali Hazelwood", image: "https://m.media-amazon.com/images/I/81oopRph1QL._SL1500_.jpg" },
     { author: "FML Pepper", image: "https://m.media-amazon.com/images/I/81vlGZZ-VSL._SL1485_.jpg" },
     { author: "Julia Quinn", image: "https://m.media-amazon.com/images/I/61z4-KJmq4L._SL1000_.jpg" },
-    { author: "Pedro Rhuas", image: "https://m.media-amazon.com/images/I/713NMPRoRVL._SL1500_.jpg" },
     { author: "Alê Santos", image: "https://m.media-amazon.com/images/I/81t68UXsI9L._SL1500_.jpg" },
     { author: "Jennifer L. Armentrout", image: "https://m.media-amazon.com/images/I/816FvhiR3KL._SL1500_.jpg" },
     { author: "L.J Smith", image: "https://m.media-amazon.com/images/I/512LlTTb-NL._SL1500_.jpg" },
