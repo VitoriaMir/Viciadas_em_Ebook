@@ -1,6 +1,6 @@
 # Viciadas_em_Ebook
 
-Este é o repositório oficial do site "Viciadas em Ebooks". Um espaço virtual dedicado aos amantes da leitura e dos ebooks. Aqui você encontrará recomendações, compartilhamento e para futuras atualizações 'discussões sobre livros', tudo para alimentar sua paixão pela leitura.
+Este é o repositório oficial do site "Viciadas em Ebooks". Um espaço virtual dedicado aos amantes da leitura e dos ebooks. Aqui você encontrará recomendações e para futuras atualizações 'discussões sobre livros e compartilhamento', tudo para alimentar sua paixão pela leitura.
 
 ## Sobre o Site
 
@@ -9,7 +9,6 @@ O site "Viciadas em Ebooks" foi criado com o propósito de fornecer um ambiente 
 ### Recursos Oferecidos
 
 - **Recomendação de Livros:** Explore recomendações cuidadosamente selecionadas para ampliar seu horizonte literário.
-- **Compartilhamento de Livros:** Partilhe suas descobertas literárias com outros membros da comunidade.
 
 ## Sobre Nós
 
