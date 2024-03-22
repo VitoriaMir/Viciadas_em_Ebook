@@ -583,6 +583,12 @@ p {
   z-index: 9;
 }
 
+@media screen and (max-width: 768px){
+  .footer_area {
+    padding: 5px 0;
+  }  
+}
+
 .footer_area .container {
   display: flex;
   justify-content: space-between;
@@ -673,6 +679,23 @@ p {
   color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+  .social li {
+    margin-right: 10px;
+  }
+
+  .social li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .footer_area .container {
+    display: block;
+    text-align: center;
+  }
+}
+
 .section_title p {
   color: #ffffff;
   margin-bottom: 10px;
@@ -708,6 +731,12 @@ p {
   transform: scale(1.1);
 }
 
+@media only screen and (max-width: 768px) {
+  .recommendation_image {
+    margin-bottom: 30px;
+  }
+}
+
 .recommendation_area {
   padding: 120px 0;
 }
@@ -715,7 +744,7 @@ p {
 .recommendation_area h2 {
   font-size: 36px;
   font-weight: 600;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   text-align: center;
   color: #f4f4f4;
 }
@@ -789,6 +818,28 @@ p {
   /* cover the image */
 }
 
+@media only screen and (max-width: 768px) {
+  .recommendation_search_form {
+    flex-direction: column;
+  }
+
+  .recommendation_search_form select {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .filter-container {
+    display: block;
+  }
+
+  .filter-container label {
+    display: block;
+    margin-bottom: 10px;
+  }  
+}
+
 .page {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -813,6 +864,20 @@ p {
   margin: 0 5px;
 }
 
+@media only screen and (max-width: 768px) {
+  .pagination {
+    margin-bottom: 0;
+  }
+
+  .pagination button {
+    padding: 10px 15px;
+  }
+
+  .page {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .button-number.active {
   background-color: #5a5457;
   color: #ffffff;
@@ -821,3 +886,4 @@ p {
 .hidden {
   display: none;
 }
+
