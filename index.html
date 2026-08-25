@@ -24,12 +24,12 @@
         <div class="header_navbar">
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/images/logo.svg" alt="Logo">
+                    <a class="navbar-brand" href="index.html" aria-label="Viciadas em Ebooks, página inicial">
+                        <img src="assets/images/logo.svg" alt="Viciadas em Ebooks">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                        aria-expanded="false" aria-label="Abrir menu de navegação">
                         <span class="toggler-icon"></span>
                         <span class="toggler-icon"></span>
                         <span class="toggler-icon"></span>
@@ -38,7 +38,7 @@
                     <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                         <ul id="nav" class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="page-scroll" href="/assets/pages/recommendation.html">Recomendação</a>
+                                <a class="page-scroll" href="assets/pages/recommendation.html">Recomendação</a>
                             </li>
                             <li class="nav-item">
                                 <a class="page-scroll" href="#about">Sobre</a>
@@ -55,9 +55,12 @@
                 <div class="container">
                     <div class="flex flex-wrap mx-[-16px]">
                         <div class="w-full px-4">
-                            <div class="mx-auto max-w-[570px] text-center wow fadeInUp" data-wow-delay=".2s"
+                            <div class="hero-content mx-auto max-w-[570px] text-center wow fadeInUp" data-wow-delay=".2s"
                                 style="visibility: visible; animation-delay: 0.2s;">
-                                <img src="assets/images/title.svg" alt="title">
+                                <p class="hero-kicker">Um cantinho para quem nunca termina um livro</p>
+                                <h1>Viciadas em Ebooks</h1>
+                                <p class="hero-description">Descubra histórias para se apaixonar, refletir e levar com você.</p>
+                                <a href="assets/pages/recommendation.html" class="main-btn">Explorar recomendações</a>
                             </div>
                         </div>
                     </div>
@@ -78,7 +81,7 @@
                         <div class="features_content">
                             <div class="card">
                                 <div class="card-front"
-                                    style="background-image: url('/assets/images/missao.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                    style="background-image: url('assets/images/missao.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                                     <h2 class="card__title">Missão</h2>
                                 </div>
                                 <div class="card-back">
@@ -99,7 +102,7 @@
                         <div class="features_content">
                             <div class="card">
                                 <div class="card-front"
-                                    style="background-image: url('/assets/images/O_que_nos_impulsiona.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                    style="background-image: url('assets/images/O_que_nos_impulsiona.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                                     <h2 class="card__title">O que nos impulsiona</h2>
                                 </div>
                                 <div class="card-back">
@@ -119,7 +122,7 @@
                         <div class="features_content">
                             <div class="card">
                                 <div class="card-front"
-                                    style="background-image: url('/assets/images/o_que_podemos_oferecer.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                                    style="background-image: url('assets/images/o_que_podemos_oferecer.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
                                     <h2 class="card__title">O que oferecemos</h2>
                                 </div>
                                 <div class="card-back">
@@ -147,21 +150,33 @@
                 <div class="col-lg-4">
                     <div class="single_recommendation mt-30">
                         <div class="recommendation_image">
-                            <img src="https://m.media-amazon.com/images/I/81iUrbors9L._SL1500_.jpg" alt="Romance 1">
+                                <img src="https://m.media-amazon.com/images/I/81iUrbors9L._SL1500_.jpg" alt="Capa de Amor, teoricamente">
+                            </div>
+                            <div class="book-details featured-details">
+                                <span>Amor, teoricamente</span>
+                                <small>Ali Hazelwood</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="single_recommendation mt-30">
                         <div class="recommendation_image">
-                            <img src="https://m.media-amazon.com/images/I/814pUv-EGbL._SL1500_.jpg" alt="Romance 2">
+                                <img src="https://m.media-amazon.com/images/I/814pUv-EGbL._SL1500_.jpg" alt="Capa de As mil partes do meu coração">
+                            </div>
+                            <div class="book-details featured-details">
+                                <span>As mil partes do meu coração</span>
+                                <small>Colleen Hoover</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="single_recommendation mt-30">
                         <div class="recommendation_image">
-                            <img src="https://m.media-amazon.com/images/I/8137g6aoSgL._SL1500_.jpg" alt="Romance 3">
+                                <img src="https://m.media-amazon.com/images/I/8137g6aoSgL._SL1500_.jpg" alt="Capa de Um experimento de amor em Nova York">
+                            </div>
+                            <div class="book-details featured-details">
+                                <span>Um experimento de amor em Nova York</span>
+                                <small>Elena Armas</small>
                         </div>
                     </div>
                 </div>
@@ -170,27 +185,39 @@
                 <div class="col-lg-4">
                     <div class="single_recommendation mt-30">
                         <div class="recommendation_image">
-                            <img src="https://m.media-amazon.com/images/I/81q6ArMrBTL._SL1500_.jpg" alt="Romance 4">
+                                <img src="https://m.media-amazon.com/images/I/81q6ArMrBTL._SL1500_.jpg" alt="Capa de romance recomendado">
+                            </div>
+                            <div class="book-details featured-details">
+                                <span>Uma história para se apaixonar</span>
+                                <small>Brittainy Cherry</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="single_recommendation mt-30">
                         <div class="recommendation_image">
-                            <img src="https://m.media-amazon.com/images/I/91UkcpRvEXL._SL1500_.jpg" alt="Romance 5">
+                                <img src="https://m.media-amazon.com/images/I/91UkcpRvEXL._SL1500_.jpg" alt="Capa de romance recomendado">
+                            </div>
+                            <div class="book-details featured-details">
+                                <span>Uma leitura para o coração</span>
+                                <small>Carina Rissi</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="single_recommendation mt-30">
                         <div class="recommendation_image">
-                            <img src="https://m.media-amazon.com/images/I/81FH6q0EqYS._SL1500_.jpg" alt="Romance 6">
+                                <img src="https://m.media-amazon.com/images/I/81FH6q0EqYS._SL1500_.jpg" alt="Capa de romance recomendado">
+                            </div>
+                            <div class="book-details featured-details">
+                                <span>Uma fantasia romântica</span>
+                                <small>Holly Black</small>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="view_more">
-                <a href="/assets/pages/recommendation.html" class="main-btn">Ver mais</a>
+                <a href="assets/pages/recommendation.html" class="main-btn">Ver mais</a>
             </div>
         </div>
 
@@ -223,7 +250,6 @@
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </body>
 
