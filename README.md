@@ -1,34 +1,41 @@
-# Viciadas_em_Ebook
+# Viciadas em Ebooks
 
-Este é o repositório oficial do site "Viciadas em Ebooks". Um espaço virtual dedicado aos amantes da leitura e dos ebooks. Aqui você encontrará recomendações e para futuras atualizações 'discussões sobre livros e compartilhamento', tudo para alimentar sua paixão pela leitura.
+Site de recomendações literárias para quem gosta de descobrir novas histórias, autores e universos. O projeto é uma experiência estática, responsiva e pensada para funcionar também em telas pequenas.
 
-## Sobre o Site
+## Funcionalidades
 
-O site "Viciadas em Ebooks" foi criado com o propósito de fornecer um ambiente acolhedor para os apaixonados por livros. Nossa missão é proporcionar uma plataforma onde os entusiastas da leitura possam se reunir, descobrir novas obras e celebrar a magia dos ebooks.
+- Catálogo com capas, títulos e autores.
+- Filtro de livros por autor.
+- Escolha de 6, 12 ou 24 livros por página.
+- Paginação com até 8 números visíveis por vez.
+- Navegação responsiva para desktop e mobile.
+- Menu mobile com abertura, fechamento por `Esc` e fechamento ao clicar fora.
+- Seção inicial com recomendações românticas em destaque.
 
-### Recursos Oferecidos
+## Como executar
 
-- **Recomendação de Livros:** Explore recomendações cuidadosamente selecionadas para ampliar seu horizonte literário.
+Como o projeto não exige servidor ou etapa de compilação, abra o arquivo `index.html` no navegador.
 
-## Sobre Nós
+Para uma experiência mais próxima de produção, publique a pasta em um serviço de hospedagem estática, como o GitHub Pages.
 
-O "Viciadas em Ebooks" é impulsionado pela crença de que a leitura é uma jornada sem fim. Estamos constantemente inspirados pela capacidade dos livros de nos transportar para diferentes realidades, desafiar nossas mentes e enriquecer nossas vidas.
+## Estrutura
 
-## Recomendação Romântica
+```text
+index.html                         Página inicial
+assets/pages/recommendation.html   Catálogo completo
+assets/css/                        Estilos do site
+assets/js/main.js                  Menu e interações gerais
+assets/js/recomendation.js         Catálogo, filtros e paginação
+assets/images/                     Logos, fundos e imagens locais
+```
 
-Explore nossa seleção de recomendações românticas e mergulhe em histórias de amor emocionantes.
+## Redes sociais
 
-## Redes Sociais
-
-Siga-nos nas redes sociais para ficar por dentro das últimas novidades e compartilhar sua paixão pela leitura:
-
-- [Twitter](https://x.com/Viciadas_ebook)
+- [X](https://x.com/Viciadas_ebook)
 - [Instagram](https://www.instagram.com/viciadas_em_ebooks)
 
-## Direitos Autorais
-
-© 2024 [Viciadas em Ebooks](https://github.com/VitoriaMir). Todos os direitos reservados.
-
----
+## Desenvolvimento
 
 Este projeto foi desenvolvido por [VitoriaMir](https://github.com/VitoriaMir).
+
+© 2026 Viciadas em Ebooks. Todos os direitos reservados.
